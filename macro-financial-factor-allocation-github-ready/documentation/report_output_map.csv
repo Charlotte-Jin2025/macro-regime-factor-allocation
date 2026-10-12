@@ -1,0 +1,26 @@
+﻿Report_item,Source_data_or_result,Analysis_code,Presentation_code
+Table 1 Research questions and evidence,results/us/direct_h1_forecast_loss.csv; results/us/direct_h2_forecast_loss.csv; results/us/studentized_intervals.csv; results/cross_market/allocation_summary.csv,src/us_analysis.py; src/states.py,src/build_report.py
+Table 2 Seven predictors and their economic rationale,results/states/model_calendar.csv; data,src/us_design.py; src/states.py,src/build_report.py
+Table 3 Documented specification choices,specification.json,specification.json,src/build_report.py
+Table 4 Forecast accuracy against the allocation historical mean,results/us/forecasts.csv,src/us_analysis.py,src/build_report.py
+Figure 1 (figure6.png),results/diagnostics/cumulative_forecast_loss.csv,src/diagnostics.py,src/plot_figures.py
+Table 5 Primary allocation over 175 target months,results/us/metrics.csv,src/us_analysis.py,src/build_report.py
+Figure 2 (figure1.png),results/us/returns.csv,src/us_analysis.py,src/plot_figures.py
+Table 6 Paired portfolio differences and uncertainty,results/us/studentized_intervals.csv; results/us/mde.csv; results/us/mean_difference_hac.csv,src/us_analysis.py,src/build_report.py
+Figure 3 (figure2.png),results/us/weights.csv,src/us_analysis.py,src/plot_figures.py
+Table 7 State coverage on signal dates,results/states/state_frequencies.csv,src/states.py,src/build_report.py
+Figure 4 (figure3.png),results/states/model_calendar.csv,src/states.py,src/plot_figures.py
+Table 8 Cost sensitivity over 175 months,results/us/metrics.csv; results/diagnostics/mom_internal_cost_sensitivity.csv,src/us_analysis.py; src/diagnostics.py,src/build_report.py
+Figure 5 (figure7.png),results/robustness/annual_incremental_returns.csv,src/robustness.py,src/plot_figures.py
+Table 9 UK and German allocations under the frozen rule,results/cross_market/allocation_summary.csv; results/cross_market/sharpe_intervals.csv; results/cross_market/mean_difference_hac.csv,src/cross_market.py,src/build_report.py
+Table A1 Terms used in this report,,src/build_report.py,src/build_report.py
+Table B1 UK and German Ridge forecasts,results/international/model_shrinkage_diagnostics.csv,src/international_analysis.py,src/build_report.py
+Table B2 International data sources and inclusion decisions,documentation/data_source_decisions.csv; documentation/cross_market_sources.json; data/input_manifest.json,documentation/data_source_decisions.csv,src/build_report.py
+Table B3 International Sharpe differences by block length,results/cross_market/sharpe_intervals.csv; results/cross_market/mean_difference_hac.csv; results/cross_market/state_coverage.csv; results/cross_market/forecast_design_audit.csv; results/cross_market/risk_timing_audit.csv,src/cross_market.py,src/build_report.py
+Table C1 IP input and penalty comparisons,results/robustness/ip_design_mean_hac.csv; results/robustness/ip_design_sharpe_intervals.csv; results/robustness/ip_parameter_audit.csv,src/robustness.py,src/build_report.py
+Table C2 Mean-return dependence sensitivities over 175 months,results/robustness/ip_design_mean_hac.csv,src/robustness.py,src/build_report.py
+Table D1 All documented allocation mappings,results/selection/mapping_comparisons.csv; results/selection/reality_check.csv; results/robustness/mapping_turnover.csv,src/selection.py; src/robustness.py,src/build_report.py
+Table D2 Initial continuous-model complexity,results/diagnostics/initial_effective_df.csv,src/diagnostics.py,src/build_report.py
+Table D3 Same COVID episode under two allocation rules,results/interpretation/event_2020_mapping_comparison.csv,src/interpretation.py,src/build_report.py
+Table E1 Initial-training OLS slope associations,results/robustness/training_slopes.csv,src/training.py; src/robustness.py,src/build_report.py
+Table E2 Observed next-month RMW returns by state,results/robustness/rmw_state_means.csv,src/states.py; src/robustness.py,src/build_report.py

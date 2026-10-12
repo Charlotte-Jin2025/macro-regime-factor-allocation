@@ -1,0 +1,131 @@
+{
+  "specification": "Fixed academic design; no further strategy or hyperparameter selection from evaluation outcomes",
+  "us_parameters": {
+    "Release_corrected_current_vintage": {
+      "MKT_RF": {
+        "Ridge": {
+          "alpha": 1000000.0
+        },
+        "Elastic_Net": {
+          "alpha": 1.584893192461114,
+          "l1_ratio": 0.9
+        }
+      },
+      "SMB": {
+        "Ridge": {
+          "alpha": 562.341325190349
+        },
+        "Elastic_Net": {
+          "alpha": 2.5118864315095824,
+          "l1_ratio": 0.1
+        }
+      },
+      "HML": {
+        "Ridge": {
+          "alpha": 1000000.0
+        },
+        "Elastic_Net": {
+          "alpha": 1.584893192461114,
+          "l1_ratio": 0.9
+        }
+      },
+      "RMW": {
+        "Ridge": {
+          "alpha": 1000000.0
+        },
+        "Elastic_Net": {
+          "alpha": 0.6309573444801936,
+          "l1_ratio": 0.9
+        }
+      },
+      "CMA": {
+        "Ridge": {
+          "alpha": 1000000.0
+        },
+        "Elastic_Net": {
+          "alpha": 1.0,
+          "l1_ratio": 0.5
+        }
+      },
+      "MOM": {
+        "Ridge": {
+          "alpha": 316.22776601683796
+        },
+        "Elastic_Net": {
+          "alpha": 1.584893192461114,
+          "l1_ratio": 0.9
+        }
+      }
+    },
+    "Partial_realtime_IP": {
+      "MKT_RF": {
+        "Ridge": {
+          "alpha": 1000000.0
+        },
+        "Elastic_Net": {
+          "alpha": 1.584893192461114,
+          "l1_ratio": 0.9
+        }
+      },
+      "SMB": {
+        "Ridge": {
+          "alpha": 562.341325190349
+        },
+        "Elastic_Net": {
+          "alpha": 2.5118864315095824,
+          "l1_ratio": 0.1
+        }
+      },
+      "HML": {
+        "Ridge": {
+          "alpha": 10000.0
+        },
+        "Elastic_Net": {
+          "alpha": 1.584893192461114,
+          "l1_ratio": 0.9
+        }
+      },
+      "RMW": {
+        "Ridge": {
+          "alpha": 1000000.0
+        },
+        "Elastic_Net": {
+          "alpha": 0.6309573444801936,
+          "l1_ratio": 0.9
+        }
+      },
+      "CMA": {
+        "Ridge": {
+          "alpha": 1000000.0
+        },
+        "Elastic_Net": {
+          "alpha": 1.0,
+          "l1_ratio": 0.9
+        }
+      },
+      "MOM": {
+        "Ridge": {
+          "alpha": 316.22776601683796
+        },
+        "Elastic_Net": {
+          "alpha": 1.584893192461114,
+          "l1_ratio": 0.9
+        }
+      }
+    }
+  },
+  "selection_rule": "Recompute initial-training cross-validation on the declared grids. The declared per-factor choice must be numerically equivalent to the new minimum (rtol1e-9,atol1e-10) before fitting.",
+  "primary_allocation": {
+    "factors": [
+      "SMB",
+      "HML",
+      "RMW",
+      "CMA",
+      "MOM"
+    ],
+    "variance_months": 36,
+    "shrinkage_to_equal_weight": 0.5,
+    "weight_cap": 0.4
+  },
+  "bootstrap_draws": 3000
+}

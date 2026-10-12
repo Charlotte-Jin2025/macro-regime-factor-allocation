@@ -1,0 +1,164 @@
+{
+  "checked_date": "2026-10-08",
+  "scope": "Primary-source bibliographic metadata and relevant findings for the cited factor-timing literature",
+  "papers": [
+    {
+      "authors": [
+        "Christopher Polk",
+        "Mo Haghbin",
+        "Alessio de Longis"
+      ],
+      "year": 2020,
+      "title": "Time-Series Variation in Factor Premia: The Influence of the Business Cycle",
+      "journal": "Journal of Investment Management",
+      "volume": "18",
+      "issue": "1",
+      "pages": "69–89",
+      "doi": null,
+      "url": "https://personal.lse.ac.uk/polk/research/PolkHaghbinDeLongis2020.pdf",
+      "reference": "Polk, C., Haghbin, M., & de Longis, A. (2020). Time-series variation in factor premia: The influence of the business cycle. Journal of Investment Management, 18(1), 69–89. https://personal.lse.ac.uk/polk/research/PolkHaghbinDeLongis2020.pdf",
+      "primary_sources": [
+        {
+          "url": "https://personal.lse.ac.uk/polk/research/PolkHaghbinDeLongis2020.pdf",
+          "type": "Author-hosted published journal paper",
+          "verified": "Title, authors, year, volume, issue, pages and abstract"
+        }
+      ],
+      "scoped_finding": "Their business-cycle classification combines leading economic indicators and global risk appetite to rotate among size, value, quality, low volatility and momentum. The published abstract reports information ratios nearly 70% above a static multifactor allocation after accounting for transaction costs and other implementation considerations.",
+      "avoid_claim": "The present report neither replicates nor disproves the approximately 70% information-ratio result. RMW is an operating-profitability spread and is not identical to their quality exposure."
+    },
+    {
+      "authors": [
+        "Hubert Dichtl",
+        "Wolfgang Drobetz",
+        "Harald Lohre",
+        "Carsten Rother",
+        "Patrick Vosskamp"
+      ],
+      "year": 2019,
+      "title": "Optimal Timing and Tilting of Equity Factors",
+      "journal": "Financial Analysts Journal",
+      "volume": "75",
+      "issue": "4",
+      "pages": "84–102",
+      "doi": "10.1080/0015198X.2019.1645478",
+      "url": "https://doi.org/10.1080/0015198X.2019.1645478",
+      "reference": "Dichtl, H., Drobetz, W., Lohre, H., Rother, C., & Vosskamp, P. (2019). Optimal timing and tilting of equity factors. Financial Analysts Journal, 75(4), 84–102. https://doi.org/10.1080/0015198X.2019.1645478",
+      "primary_sources": [
+        {
+          "url": "https://research.lancaster-university.uk/en/publications/optimal-timing-and-tilting-of-equity-factors/",
+          "type": "Author's university research record",
+          "verified": "Full bibliographic metadata, DOI and abstract"
+        }
+      ],
+      "scoped_finding": "Using parametric portfolio policies for global equity factors, they find predictive relations with fundamental and technical signals but limited ability to profit from them after transaction costs; smoothing turnover improves timing evidence only modestly.",
+      "avoid_claim": "Do not say transaction costs explain the present report's null finding if gross allocation gains are already statistically uncertain."
+    },
+    {
+      "authors": [
+        "Jennifer Bender",
+        "Xiaole Sun",
+        "Ric Thomas",
+        "Volodymyr Zdorovtsov"
+      ],
+      "year": 2018,
+      "title": "The Promises and Pitfalls of Factor Timing",
+      "journal": "The Journal of Portfolio Management",
+      "volume": "44",
+      "issue": "4",
+      "pages": "79–92",
+      "doi": "10.3905/jpm.2018.44.4.079",
+      "url": "https://doi.org/10.3905/jpm.2018.44.4.079",
+      "reference": "Bender, J., Sun, X., Thomas, R., & Zdorovtsov, V. (2018). The promises and pitfalls of factor timing. The Journal of Portfolio Management, 44(4), 79–92. https://doi.org/10.3905/jpm.2018.44.4.079",
+      "primary_sources": [
+        {
+          "url": "https://www.suffolk.edu/academics/faculty/r/i/ric-thomas",
+          "type": "Author's university publication list",
+          "verified": "Authors, title, journal, year, volume, issue, pages and DOI hyperlink"
+        },
+        {
+          "url": "https://jacobslevycenter.wharton.upenn.edu/wp-content/uploads/2017/08/The-Promises-and-Pitfalls-of-Factor-Timing-1.pdf",
+          "type": "Author paper presented via Wharton Jacobs Levy Center",
+          "verified": "April 2017 working-paper abstract and discussion underlying the 2018 published article"
+        }
+      ],
+      "scoped_finding": "The authors examine sentiment, valuation, trend, economic and financial-condition predictors, stressing that relevance depends on the investment horizon and that changing relationships and hindsight can undermine factor timing.",
+      "avoid_claim": "Do not portray this as evidence of an identical monthly US five-factor implementation or a universally successful timing method."
+    },
+    {
+      "authors": [
+        "Christopher J. Neely",
+        "David E. Rapach",
+        "Jun Tu",
+        "Guofu Zhou"
+      ],
+      "year": 2014,
+      "title": "Forecasting the Equity Risk Premium: The Role of Technical Indicators",
+      "journal": "Management Science",
+      "volume": "60",
+      "issue": "7",
+      "pages": "1772–1791",
+      "doi": "10.1287/mnsc.2013.1838",
+      "url": "https://doi.org/10.1287/mnsc.2013.1838",
+      "reference": "Neely, C. J., Rapach, D. E., Tu, J., & Zhou, G. (2014). Forecasting the equity risk premium: The role of technical indicators. Management Science, 60(7), 1772–1791. https://doi.org/10.1287/mnsc.2013.1838",
+      "primary_sources": [
+        {
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2013.1838",
+          "type": "Publisher article record",
+          "verified": "Full bibliographic metadata, DOI and abstract"
+        }
+      ],
+      "scoped_finding": "For the aggregate US equity premium, technical and macroeconomic indicators contain complementary information across the business cycle, and combining them improves forecasts compared with either information set alone in their design.",
+      "avoid_claim": "This is an aggregate-market forecasting result, not evidence that the same gains transfer to five long-short equity factors."
+    },
+    {
+      "authors": [
+        "Alan Moreira",
+        "Tyler Muir"
+      ],
+      "year": 2017,
+      "title": "Volatility-Managed Portfolios",
+      "journal": "The Journal of Finance",
+      "volume": "72",
+      "issue": "4",
+      "pages": "1611–1644",
+      "doi": "10.1111/jofi.12513",
+      "url": "https://doi.org/10.1111/jofi.12513",
+      "reference": "Moreira, A., & Muir, T. (2017). Volatility-managed portfolios. The Journal of Finance, 72(4), 1611–1644. https://doi.org/10.1111/jofi.12513",
+      "primary_sources": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.12513",
+          "type": "Publisher article record",
+          "verified": "Full bibliographic metadata, DOI and abstract"
+        }
+      ],
+      "scoped_finding": "Reducing risk when lagged volatility is high improves risk-adjusted performance for several factors in their analysis because conditional expected returns do not rise proportionately with volatility.",
+      "avoid_claim": "The report's capped, shrunk forecast-over-variance mapping is not a replication of the paper's inverse-variance timing strategy. Gains shared by macro and historical-mean allocations do not identify an incremental macro effect."
+    },
+    {
+      "authors": [
+        "Bryan Kelly",
+        "Semyon Malamud",
+        "Kangying Zhou"
+      ],
+      "year": 2024,
+      "title": "The Virtue of Complexity in Return Prediction",
+      "journal": "The Journal of Finance",
+      "volume": "79",
+      "issue": "1",
+      "pages": "459–503",
+      "doi": "10.1111/jofi.13298",
+      "url": "https://doi.org/10.1111/jofi.13298",
+      "reference": "Kelly, B., Malamud, S., & Zhou, K. (2024). The virtue of complexity in return prediction. The Journal of Finance, 79(1), 459–503. https://doi.org/10.1111/jofi.13298",
+      "primary_sources": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.13298",
+          "type": "Publisher full article",
+          "verified": "Full bibliographic metadata, DOI, theory scope and aggregate US market application"
+        }
+      ],
+      "scoped_finding": "In their theoretical setting and aggregate US market application, richly parameterized nonlinear feature models can improve out-of-sample market-timing performance. They also show that forecast R-squared can be an incomplete guide to portfolio value.",
+      "avoid_claim": "Do not infer that a selected Ridge penalty at the upper grid boundary proves macro information is absent, or that arbitrarily adding predictors must improve this report's factor allocation. Their paper explicitly distinguishes raw signals from nonlinear model complexity."
+    }
+  ]
+}
